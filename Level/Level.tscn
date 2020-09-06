@@ -38,9 +38,6 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 [node name="Level" type="Node2D"]
 script = ExtResource( 4 )
 
-[node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 408, 400 )
-
 [node name="Navigation2D" type="Navigation2D" parent="."]
 position = Vector2( -327.579, 138.591 )
 
@@ -56,3 +53,5 @@ default_color = Color( 1, 0.4, 0.4, 1 )
 tile_set = SubResource( 3 )
 format = 1
 tile_data = PoolIntArray( 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 65536, 0, 0, 65546, 0, 0, 131072, 0, 0, 131082, 0, 0, 196608, 0, 0, 196618, 0, 0, 262144, 0, 0, 262148, 0, 0, 262154, 0, 0, 327680, 0, 0, 327684, 0, 0, 327690, 0, 0, 393216, 0, 0, 393220, 0, 0, 393226, 0, 0, 458752, 0, 0, 458756, 0, 0, 458762, 0, 0, 524288, 0, 0, 524298, 0, 0, 589824, 0, 0, 589834, 0, 0, 655360, 0, 0, 655361, 0, 0, 655362, 0, 0, 655363, 0, 0, 655364, 0, 0, 655365, 0, 0, 655366, 0, 0, 655367, 0, 0, 655368, 0, 0, 655369, 0, 0, 655370, 0, 0 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
