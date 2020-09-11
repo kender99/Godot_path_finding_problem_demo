@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="debug"
+config/name="pathfind problem demo"
 run/main_scene="res://Level/Level.tscn"
 config/icon="res://icon.png"
 

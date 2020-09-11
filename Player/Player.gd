@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 const speed = 200
-var path : = PoolVector2Array()
+var path : = PoolVector2Array()  #it comes in global coords from the level scene
 
 func _process(delta: float) -> void:
 	var velocity = Vector2.ZERO
